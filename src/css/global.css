@@ -2,7 +2,7 @@
   /* Breakpoints */
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
-  --breeakpoint-lg: 992px;
+  --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
 
   /* Colors */
@@ -484,7 +484,7 @@
   }
 }
 
-@media screen and (min-width: var(--breakpoint-sm)) {
+@media screen and (min-width: var(--breakpoint-sm)) and (max-width: var(--breakpoint-md)) {
   /* Margin */
   .m-sm-1 {
     margin: var(--space-xxs);
@@ -716,7 +716,7 @@
   }
 }
 
-@media screen and (min-width: var(--breakpoint-md)) {
+@media screen and (min-width: var(--breakpoint-md)) and (max-width: var(--breakpoint-lg)) {
   /* Margin */
   .m-md-1 {
     margin: var(--space-xxs);
@@ -948,7 +948,7 @@
   }
 }
 
-@media screen and (min-width: var(--breakpoint-lg)) {
+@media screen and (min-width: var(--breakpoint-lg)) and (max-width: var(--breakpoint-xl)) {
   /* Margin */
   .m-lg-1 {
     margin: var(--space-xxs);
