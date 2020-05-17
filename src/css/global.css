@@ -11,13 +11,22 @@
   --white: #ffffff;
   --background-color: #f4f4f4;
 
+  /* Font Sizing */
+  --font-size-sm: 0.75rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.25rem;
+  --title-1: 1.5rem;
+  --title-2: 2rem;
+  --title-3: 2.5rem;
+  --title-4: 3rem;
+  --title-5: 4rem;
+
   /* Spacing (margin and padding values) */
-  --space-unit: 1rem;
-  --space-xxs: calc(0.5 * var(--space-unit));
-  --space-xs: calc(1 * var(--space-unit));
-  --space-sm: calc(1.5 * var(--space-unit));
-  --space-md: calc(2 * var(--space-unit));
-  --space-lg: calc(3 * var(--space-unit));
-  --space-xl: calc(4 * var(--space-unit));
-  --space-xxl: calc(6 * var(--space-unit));
+  --space-xxs: 0.5rem;
+  --space-xs: 1rem;
+  --space-sm: 1.5rem;
+  --space-md: 2rem;
+  --space-lg: 3rem;
+  --space-xl: 4rem;
+  --space-xxl: 6rem;
 }
